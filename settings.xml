@@ -1,0 +1,48 @@
+<Configuration>
+  <Group Name="Settings">
+    <Property Name="AppCode">
+      <Value>Universal</Value>
+    </Property>
+    <Property Name="InstallPath">
+      <Value>C:\Program Files\Dell\CommandUpdate\</Value>
+    </Property>
+    <Group Name="General">
+      <Property Name="UserConsent">
+        <Value>false</Value>
+      </Property>
+      <Property Name="SuspendBitLocker">
+        <Value>true</Value>
+      </Property>
+      <Group Name="CustomProxySettings">
+        <Group Name="ProxyAuthentication" />
+      </Group>
+    </Group>
+    <Group Name="Schedule">
+      <Property Name="ScheduleMode">
+        <Value>Weekly</Value>
+      </Property>
+      <Property Name="Time">
+        <Value>2019-12-02T03:00:00</Value>
+      </Property>
+      <Property Name="DayOfWeek">
+        <Value>Wednesday</Value>
+      </Property>
+      <Property Name="AutomationMode">
+        <Value>ScanDownloadApplyNotify</Value>
+      </Property>
+      <Property Name="RebootWait">
+        <Value>OneHour</Value>
+      </Property>
+    </Group>
+    <Group Name="UpdateFilter">
+      <Group Name="RecommendedLevel" />
+      <Group Name="UpdateType" />
+      <Group Name="DeviceCategory" />
+    </Group>
+    <Group Name="AdvancedDriverRestore">
+      <Property Name="IsAdvancedDriverRestoreEnabled">
+        <Value>true</Value>
+      </Property>
+    </Group>
+  </Group>
+</Configuration>
